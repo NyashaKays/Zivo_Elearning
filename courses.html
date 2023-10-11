@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zivo E-Learning</title>
     <link rel="stylesheet" href="Assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body class="courses-body">
     <header>
@@ -28,6 +29,10 @@
         <button><a href="signup.html">SIGN UP</a></button>
         </div>
       </nav>
+
+      <button class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </header>
 
     <div class="mobile-nav">
@@ -51,112 +56,113 @@
 
 
 
-    <div class="contents">
-      <div class="info">
-        <h2>Our little corner of learning Heaven</h2>
-        <br />
-        <h1>
-          Heres your key lets start our learning <br />
-          journey. <span>Choose your course here!</span>
-        </h1>
-        <br />
-        <div class="search-for-course">
-          <input
-            type="search"
-            name="search"
-            id="search"
-            placeholder="Search for course"
-            class="search-for-course"
-          />
-          <button class="search-btn"><a href="#">search</a></button>
-        </div>
-      </div>
-      <div class="imagery">
-        <img
-          class="model"
-          src="Assets/images/5264881.png"
-          alt="lady studying on the couch of her home"
-        />
-      </div>
-    </div>
-    <div class="contents">
-        <div class="imagery">
-          <div class="video-box">
-            <video width="560" height="315" autoplay loop muted plays inline class="video">
-              <source src="Assets/images/Computer code in the screen - Free Stock Video.mp4">
-            </video>
-          </div>
-          <figcaption>
-            <span>We are always eager to hear from you</span>
-          </figcaption>
-        </div>
+    <main class="courses">
+      <div class="contents">
         <div class="info">
-          <h2>Featured course</h2>
+          <h2>Our little corner of learning Heaven</h2>
           <br />
-          <h1 class="featured-course-label">CS50's Introduction to computer Science</h1>
+          <h1>
+            Heres your key lets start our learning <br />
+            journey. <span>Choose your course here!</span>
+          </h1>
           <br />
-          <p class="contact-us">
-            An introduction to the intellectual enterprises of <br>
-            computer science and the art of programming. <br>
-            <ul>
-                <li>Introduction to programming</li>
-                <li>Introduction to Networks</li>
-                <li>Introduction to Databases</li>
-                <li>Introduction to Web Development</li>
-            </ul>
-            <br>
-            HARVARD | School Of Computer Science | Prof. Steven G Johnson <br>
-            11 Weeks <br>
-          </p>
-          <br />
-          <button class="Get-started-btn"><a href="signup.html">Enroll</a></button>
-        </div>
-    </div>
-    <div class="pricing-container">
-        <h1>TOP COURSES</h1>
-        <div class="wrapper">
-          <div class="single-price course">
-            <h1>Calculus <br> For <br> Machine Learning</h1>
-            <h2>MIT | Prof Alan Edelman</h2>
-            <div class="deals">
-              <h4>5 courses at a time</h4>
-              <h4>No contact with tutors</h4>
-              <h4>No certification</h4>
-              <h4>No Google Classroom integration</h4>
-              <h4>No Microsoft Office 365</h4>
-            </div>
-            <div class="course-highlight" style="background-image: url(Assets/images/wp2790127.jpg); background-size: contain;">
-            </div>
-            <button class="select-btn">Enroll</button>
-          </div>
-          <div class="single-price course">
-            <h1>Game <br> Theory</h1>
-            <h2>MIT | Prof Asya Magazinnik</h2>
-            <div class="deals">
-              <h4>10 courses limit</h4>
-              <h4>Direct contact with tutors</h4>
-              <h4>Paid certification</h4>
-              <h4>Google Classroom integration</h4>
-              <h4>No Microsoft Office 365</h4>
-            </div>
-            <div class="course-highlight" style="background-image: url(Assets/images/applied-game-theory-example.png); background-size: contain;">
-            </div>
-            <button class="select-btn">Enroll</button>
-          </div>
-          <div class="single-price course">
-            <h1>Geographical <br> Information <br> System (GIS)</h1>
-            <h2>MIT | Prof Ethan Hayes</h2>
-            <div class="deals">
-              <h4>No course limit</h4>
-              <h4>Direct contact with tutors</h4>
-              <h4>Free certification</h4>
-              <h4>Google classroom integration.</h4>
-              <h4>Microsoft Office 365</h4>
-            </div>
-            <div class="course-highlight" style="background-image: url(Assets/images/What-Is-Geographic-Information-Systems-Featured.jpg); background-size: contain;">
-            </div>
-            <button class="select-btn">Enroll</button>
+          <div class="search-for-course">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search for course"
+              class="search-for-course"
+            />
+            <button class="search-btn"><a href="#">search</a></button>
           </div>
         </div>
+        <div class="imagery">
+          <img
+            class="model"
+            src="Assets/images/5264881.png"
+            alt="lady studying on the couch of her home"
+          />
+        </div>
+      </div>
+      <div class="contents">
+          <div class="imagery">
+            <div class="video-box">
+              <video width="560" height="315" autoplay loop muted plays inline class="video">
+                <source src="Assets/images/Computer code in the screen - Free Stock Video.mp4">
+              </video>
+            </div>
+          </div>
+          <div class="info">
+            <h2>Featured course</h2>
+            <br />
+            <h1 class="featured-course-label">CS50's Introduction to computer Science</h1>
+            <br />
+            <p class="contact-us">
+              An introduction to the intellectual enterprises of <br>
+              computer science and the art of programming. <br>
+              <ul>
+                  <li>Introduction to programming</li>
+                  <li>Introduction to Networks</li>
+                  <li>Introduction to Databases</li>
+                  <li>Introduction to Web Development</li>
+              </ul>
+              <br>
+              HARVARD | School Of Computer Science | Prof. Steven G Johnson <br>
+              11 Weeks <br>
+            </p>
+            <br />
+            <button class="Get-started-btn"><a href="signup.html">Enroll</a></button>
+          </div>
+      </div>
+
+      <div class="pricing-container">
+          <h1>TOP COURSES</h1>
+          <div class="wrapper">
+            <div class="single-price course">
+              <h1>Calculus <br> For <br> Machine Learning</h1>
+              <h2>MIT | Prof Alan Edelman</h2>
+              <div class="deals">
+                <h4>5 courses at a time</h4>
+                <h4>No contact with tutors</h4>
+                <h4>No certification</h4>
+                <h4>No Google Classroom integration</h4>
+                <h4>No Microsoft Office 365</h4>
+              </div>
+              <div class="course-highlight" style="background-image: url(Assets/images/wp2790127.jpg); background-size: contain;">
+              </div>
+              <button class="select-btn">Enroll</button>
+            </div>
+            <div class="single-price course">
+              <h1>Game <br> Theory</h1>
+              <h2>MIT | Prof Asya Magazinnik</h2>
+              <div class="deals">
+                <h4>10 courses limit</h4>
+                <h4>Direct contact with tutors</h4>
+                <h4>Paid certification</h4>
+                <h4>Google Classroom integration</h4>
+                <h4>No Microsoft Office 365</h4>
+              </div>
+              <div class="course-highlight" style="background-image: url(Assets/images/applied-game-theory-example.png); background-size: contain;">
+              </div>
+              <button class="select-btn">Enroll</button>
+            </div>
+            <div class="single-price course">
+              <h1>Geographical <br> Information <br> System (GIS)</h1>
+              <h2>MIT | Prof Ethan Hayes</h2>
+              <div class="deals">
+                <h4>No course limit</h4>
+                <h4>Direct contact with tutors</h4>
+                <h4>Free certification</h4>
+                <h4>Google classroom integration.</h4>
+                <h4>Microsoft Office 365</h4>
+              </div>
+              <div class="course-highlight" style="background-image: url(Assets/images/What-Is-Geographic-Information-Systems-Featured.jpg); background-size: contain;">
+              </div>
+              <button class="select-btn">Enroll</button>
+            </div>
+          </div>
+        </div>
+    </main>
   </body>
 </html>
